@@ -17,6 +17,7 @@ for (let i = 0; i < people.length; i++) {
     }
     result.push(largestAge);
 //testing git
+//test 2
     }
 
 // write the code to figure out what the largest age
