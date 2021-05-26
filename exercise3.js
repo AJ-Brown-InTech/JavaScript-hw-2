@@ -4,3 +4,4 @@ let letters = ["cat", "cut", "bat"];
 // array and write to the console "the word cut is in the list", 
 // if the word "cut" is in the list.
 
+//test 3
