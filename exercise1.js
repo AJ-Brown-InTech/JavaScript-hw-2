@@ -1,24 +1,19 @@
-
 let sallysAge = 10;
 let jonsAge = 9;
 let bobsAge = 12;
 
-let result = [];
+let result = 0
+let ages = (sallysAge, jonsAge, bobsAge);
 
-let largestAge = 0;
-
-let people = [jonsAge,sallysAge, bobsAge]
-
-for (let i = 0; i < people.length; i++) {
-    let num = people[i];
-    
-    if (largestAge > num) {
-    largestAge = num;
+for (i =0; i < ages.length; i++ ) {
+  let num = ages[i];
+  let result = 0
+    if (num > ages[i]) {
+      num = ages
     }
-    result.push(largestAge);
-//testing git
-//test 2
-    }
+   
+}
+console.log(ages)
 
 // write the code to figure out what the largest age
 // is among the three values above.
@@ -26,8 +21,5 @@ for (let i = 0; i < people.length; i++) {
 // expect the console output to be
 // 12
 
-// hint: you will need to use a variable to 
+// hint: you will need to use a variable to
 // track the largestAge.
-
-
-
